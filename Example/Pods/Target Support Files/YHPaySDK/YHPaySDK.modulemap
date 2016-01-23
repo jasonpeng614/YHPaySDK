@@ -1,0 +1,6 @@
+framework module YHPaySDK {
+  umbrella header "YHPaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

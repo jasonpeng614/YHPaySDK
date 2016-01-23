@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+
+target 'YHPaySDK_Tests', :exclusive => true do
+  pod "YHPaySDK", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
